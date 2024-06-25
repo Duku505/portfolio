@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/', // Correctly set to your repository name
+  base: '/portfolio/',
+  plugins: [react()],
   build: {
     outDir: 'dist',
     rollupOptions: {
