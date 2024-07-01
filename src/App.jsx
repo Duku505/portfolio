@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import './index.css'; // Ensure the CSS file is imported
-import image1 from './assets/images/image1.jpg'; // Import image1
-import image2 from './assets/images/image2.jpg'; // Import image2
+import './index.css';
+import image1 from './assets/images/image1.jpg';
+import image2 from './assets/images/image2.jpg'; 
 
 const App = () => {
   return (
